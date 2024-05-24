@@ -43,14 +43,14 @@ const Header = () => {
                         <ul className='menu'>
                             {
                                 nav__links.map((item, index) => (
-                                    <li className='menu__item'><a href={item.path} className='menu__link'></a>{item.display}</li>
+                                    <li className='menu__item'><a href={item.path} className='menu__link'>{item.display}</a></li>
                                 ))
                             }
 
                         </ul>
                     </div>
                     {/* lightmode*/}
-                    <div className='lightmode'>
+                    <div className='light__mode'>
                         <span>
                             <i class='ri-sun-line'></i>Light Mode
                         </span>

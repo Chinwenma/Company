@@ -4,7 +4,7 @@
 /* css variables */
 :root {
   --primary-color: #379cf6;
-  /* --heading-color: #fff; */
+  --heading-color: #fff;
   --btn-primary-bg: #379cf6;
   --btn-secondary-bg: #090238;
   --team-card-bg: #1b2352;
@@ -18,31 +18,28 @@
   );
   --counter-color: linear-gradient(
     90deg,
-    rgba(17, 143, 174, 1) 18%,
-    rgba(29, 129, 176, 1) 38%,
-    rgba(35, 93, 173, 1) 61%
+    #02bba6 30%,
+    rgba(29, 129, 176, 1) 55%,
+    rgba(35, 93, 173, 1) 75%
   );
-  --body-bg: linear-gradient(
-    90deg,
-    rgba(5, 2, 45, 1) 22%,
-    rgba(5, 6, 36, 1) 40%,
-    rgba(6, 11, 36, 1) 100%
-  ) ;
+  --body-bg: rgba(6, 11, 26, 1);
   --newsletter-bg: linear-gradient(
     90deg,
     rgba(27, 9, 115, 1) 20%,
     rgba(23, 9, 96, 1) 38%,
     rgba(14, 9, 56, 1) 100%
   );
-
   --testimonial-bg: #1a0f4f;
   --font-name: "Roboto", sans-serif;
+  --small-text-color: rgba(255, 255, 255, 0.774);
+  --icon-bg:#151e4f;
 }
 
 .light-theme {
-  --body-bg:#fff;
+  --body-bg: rgb(255, 255, 255);
   --heading-color: #0c123d;
-  --btn-primary-bg: #816aff;
+  --btn-secondary-bg: #816aff;
+  --btn-primary-bg: #fff;
   --primary-color: #816aff;
   --counter-color: #fff;
   --counter-section-bg: #816aff;
@@ -54,27 +51,39 @@
     rgba(193, 243, 255, 1) 50%,
     rgba(226, 250, 255, 1) 78%
   );
-  
+  --small-text-color:#000;
+  --card-bg:#fff;
+  --testimonial-bg: #f7f7f7;
+  --team-card-bg: #fff;
 }
+
 *{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
 body{
-    background-color: var(--body-bg);
-    font-family: var(--font-name);
+  background-color: var(--body-bg);
+  font-family: var(--font-name);
 }
 a{
-    text-decoration: none;
-    color: var( --link-color);
+  text-decoration: none;
+  color: var( --link-color);
 }
 h1,h2{
-    color: var(--heading-color);
+  color: var(--heading-color);
+}
+.section{
+  padding: 80px 0px;
 }
 .container{
-    width: 1140px;
-    padding: 0px 15px;
-    margin: auto;
+  width: 1140px;
+  padding: 0px 15px;
+  margin: auto;
+}
+.description{
+  color: var(--small-text-color);
+  line-height: 30px;
+  font-size: .9rem;
 }

@@ -14,12 +14,32 @@
     column-gap: 2.7rem;
     list-style: none;
 }
-.menu__item{
+.menu__link{
     font-weight: 400;
     font-style: 0.9rem;
     
 }
-.menu__item:hover{
+.menu__link:hover{
     color: var(--link-active);
     cursor: pointer;
 }
+.logo h2{
+    color: var(--primary-color);
+  }
+  .light__mode{
+    color: rgba(255, 255, 255, 0.637);
+   display: flex;
+    align-items: center;
+    column-gap: 0.4rem;
+    font-size: 0.8rem;
+  }
+  .header__shrink{
+    height: 80px;
+    width: 100%;
+    line-height: 80px;
+    position: sticky;
+    top: 0;
+    left: 0;
+    z-index: 9999;
+
+  }
