@@ -1,5 +1,7 @@
 /* eslint-disable jsx-a11y/anchor-has-content */
 import React from 'react'
+import './header.css';
+
 const nav__links = [
     {
         path: '#home',
@@ -35,7 +37,6 @@ const Header = () => {
                 <div className='nav__wrapper'>
                     <div className='logo'>
                         <h2>DeTechMatrix</h2>
-                        <p>let's make it tech</p>
                     </div>
                     {/* navigation*/}
                     <div className='navigation'>
