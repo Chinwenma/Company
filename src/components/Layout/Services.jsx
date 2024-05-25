@@ -5,21 +5,21 @@ const ServicesData = [
   
     {
         icon: 'ri-apps-line',
-         title: 'Web Development',
+         title: 'Software Development',
          desc: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed euismod, libero eu aliquam aliquam, nunc nunc lLorem ipsum dolor sit amet.'
      },
     {
-        icon: 'ri-apps-line',
+        icon: 'ri-pages-line',
          title: 'Product Desgin',
          desc: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed euismod, libero eu aliquam aliquam, nunc nunc lLorem ipsum dolor sit amet.'
      },
      {
-        icon: 'ri-apps-line',
+        icon: 'ri-landscape-line',
          title: 'Graphics Desgin',
          desc: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed euismod, libero eu aliquam aliquam, nunc nunc lLorem ipsum dolor sit amet.'
      },
      {
-        icon: 'ri-apps-line',
+        icon: 'ri-rocket-line',
          title: 'Digital Marketing',
          desc: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed euismod, libero eu aliquam aliquam, nunc nunc lLorem ipsum dolor sit amet.'
      },
