@@ -41,7 +41,9 @@
 }
 .primary__btn{
     background: var(--btn-primary-bg);
+   
 }
 .secondary__btn{
     background: var(--btn-secondary-bg);
+    border: 1px solid var(--btn-primary-bg);
 }
