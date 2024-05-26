@@ -6,6 +6,7 @@ import Counter from './components/Layout/Counter';
 import Hero from './components/Layout/Hero';
 import Services from './components/Layout/Services';
 import Team from './components/Layout/Team';
+import Testimonial from './components/Layout/Testimonial';
 
 function App() {
   return (
@@ -17,7 +18,8 @@ function App() {
         <Services/>
         <About/>
         <Team/>
-        <Blog/>
+        <Blog/>,
+        <Testimonial/>
       
     </>
   );
