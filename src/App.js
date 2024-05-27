@@ -1,4 +1,5 @@
 import './App.css';
+import Footer from './components/Footer/Footer';
 import Header from './components/Header/Header';
 import About from './components/Layout/About';
 import Blog from './components/Layout/Blog';
@@ -22,6 +23,7 @@ function App() {
         <Blog/>,
         <Testimonial/>
         <Newsletter/>
+        <Footer/>
       
     </>
   );
