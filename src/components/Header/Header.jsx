@@ -61,7 +61,11 @@ const Header = ({ theme, toggleTheme }) => {
             <ul className="menu">
               {nav__links.map((item, index) => (
                 <li className="menu__item" key={index}>
-                  <a href={item.path} onClick={handleClick} className="menu__link">
+                  <a
+                    href={item.path}
+                    onClick={handleClick}
+                    className="menu__link"
+                  >
                     {item.display}
                   </a>
                 </li>
@@ -82,6 +86,9 @@ const Header = ({ theme, toggleTheme }) => {
               )}
             </span>
           </div>
+          <span className="mobile__nav">
+            <i class="ri-menu-line"></i>
+          </span>
         </div>
       </div>
     </header>
