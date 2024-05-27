@@ -12,7 +12,7 @@ import Team from './components/Layout/Team';
 import Testimonial from './components/Layout/Testimonial';
 
 function App() {
-  const [theme, setTheme] = useState('light-theme')
+  const [theme, setTheme] = useState('')
   const toggleTheme = ()=>{
     theme === '' ? setTheme('light-theme') : setTheme('')
   }
