@@ -1,11 +1,12 @@
 .footer {
     padding: 60px 0px;
+
 }
 
 .footer__wrapper {
     display: flex;
     justify-content: space-between;
-    column-gap: 2.5rem;
+    column-gap: 3rem;
 
 }
 
@@ -15,6 +16,7 @@
 
 .footer__quick_links {
     width: 20%;
+    
 }
 
 .footer__logo h2 {
@@ -24,6 +26,8 @@
 .small__text {
     font-size: 1rem;
     margin-top: 30px;
+    font-weight: 500;
+
 }
 
 .quick__links_title {
@@ -39,14 +43,29 @@
 
 .quick__links_item {
     margin-bottom: 30px;
+    
 }
 
 .quick__links_item a {
-    font-weight: 300;
-    font-size: 0.9rem;
+    font-size: 1rem;
     cursor: pointer;
+    font-weight: 400;
+
 }
 .quick__links_item a:hover{
     color: var(--primary-color);
     transition: ease 1s;
+}
+.copy__right{
+    text-align: center;
+    color: rgba(255, 255, 255, 0.849);
+    margin-top: 30px;
+    font-weight: 400;
+    font-size: 0.9rem;
+}
+.light-theme .quick__links_item{
+font-weight: 500;
+}
+.light-theme .copy__right{
+    color: rgb(67, 67, 68);
 }

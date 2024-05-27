@@ -44,6 +44,7 @@ const quickLinks03 = [
   },
 ];
 const Footer = () => {
+  const year=  new Date().getFullYear()
   return (
     <footer className="footer">
       <div className="container">
@@ -87,6 +88,8 @@ const Footer = () => {
             </ul>
           </div>
         </div>
+        <p className="copy__right">Copyright {year}, all rights reserved.</p>
+
       </div>
     </footer>
   );

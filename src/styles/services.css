@@ -1,3 +1,6 @@
+.light-theme #services{
+    background: #effcff;
+  }
 .services__top_content{
     text-align: center;
     margin-bottom: 50px;
@@ -10,6 +13,7 @@ justify-content: center;
 column-gap: 2rem;
 
 }
+
 .services__bottom_item{
     background:var(--card-bg);
     width: 25%;
@@ -18,6 +22,12 @@ column-gap: 2rem;
     border-radius: 10px;
     cursor: pointer;
 }
+
+  .light-theme .services__bottom_item{
+    box-shadow: 5px 5px 15px -5px #999;
+  }
+  
+
 .service__icon{
     height: 60px;
     width: 60px;
@@ -30,6 +40,13 @@ column-gap: 2rem;
     margin-bottom: 20px;
     border: 1px solid var(--primary-color);
 }
+.light-theme .service__icon{
+    background: var(--primary-color);
+}
+.light-theme .service__icon i{
+    color: #fff;
+}
+
 .service__icon i{
     font-size: 2.5rem;
     color: var(--primary-color);
