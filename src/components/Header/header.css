@@ -61,7 +61,7 @@
 
 .mobile__nav {
   display: none;
-  color: fff;
+  color: #fff;
   cursor: pointer;
   font-size: 1.3rem;
 }
@@ -78,6 +78,7 @@
 
 /* meia query */
 @media screen and (max-width: 992px) {
+ 
   .navigation {
     position: fixed;
     top: 0;
@@ -86,17 +87,34 @@
     height: 100%;
     background: rgba(6, 11, 26, 0.868);
     z-index: 999999;
+    display: none;
   }
   .menu{
     flex-direction: column;
     background:var(--scroll-color);
     height: 100%;
-    width: 20%;
+    width:250px;
     align-items: center;
     justify-content: center;
     position: absolute;
     top: 0;
     right: 0;
     z-index: 999999;
+  }
+  .menu__active{
+    display: block;
+  }
+  .mobile__nav{
+    display: block;
+  }
+}
+@media screen and (max-width:768){
+  .header{
+    height: 50px;
+    width: 100%;
+    line-height: 50;
+  }
+  .mobile__nav{
+    font-size: 1rem;
   }
 }

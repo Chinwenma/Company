@@ -114,3 +114,9 @@ section{
 .light-theme .team__img{
   background: #d3d1d1;
 }
+
+@media screen and(max-width:1024px) {
+  .container{
+    width: 100%;
+  }
+}

@@ -24,6 +24,7 @@ const nav__links = [
 
 const Header = ({ theme, toggleTheme }) => {
   const headerRef = useRef(null);
+  const menuRef =useRef(null);
 
   const headerFunc = () => {
     if (window.scrollY > 80) {
@@ -49,6 +50,8 @@ const Header = ({ theme, toggleTheme }) => {
     });
   };
 
+  const  toggleMenu =() => menuRef.current.classList.toggle('menu__active')
+
   return (
     <header className="header" ref={headerRef}>
       <div className="container">
@@ -57,7 +60,7 @@ const Header = ({ theme, toggleTheme }) => {
             <h2>DeTechMatrix</h2>
           </div>
           {/* navigation */}
-          <div className="navigation">
+          <div className="navigation " ref={menuRef}  onClick={toggleMenu}>
             <ul className="menu">
               {nav__links.map((item, index) => (
                 <li className="menu__item" key={index}>
@@ -86,7 +89,7 @@ const Header = ({ theme, toggleTheme }) => {
               )}
             </span>
           </div>
-          <span className="mobile__nav">
+          <span className="mobile__nav" onClick={toggleMenu}>
             <i class="ri-menu-line"></i>
           </span>
         </div>
