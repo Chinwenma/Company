@@ -93,7 +93,7 @@
     flex-direction: column;
     background:var(--scroll-color);
     height: 100%;
-    width:250px;
+    width:50%;
     align-items: center;
     justify-content: center;
     position: absolute;
@@ -108,13 +108,16 @@
     display: block;
   }
 }
-@media screen and (max-width:768){
+@media  screen and (max-width:768px){
   .header{
     height: 50px;
     width: 100%;
-    line-height: 50;
+    line-height: 50px;
   }
   .mobile__nav{
     font-size: 1rem;
+  }
+  .logo h2{
+    font-size: 1.3rem;
   }
 }

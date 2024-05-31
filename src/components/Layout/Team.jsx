@@ -33,7 +33,7 @@ const TeamData = [
 
 const Team = () => {
     return (
-        <section className='our__team'>
+        <section className='our__team '>
             <div className='container'>
                 <div className='team__content'>
                     <h6 className='subtitle'>Our Team</h6>

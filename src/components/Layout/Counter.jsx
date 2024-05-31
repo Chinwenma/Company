@@ -19,7 +19,7 @@ const CounterData = [
 
 const Counter = () => {
     return (
-        <section className='counter'>
+        <section className='counter '>
             <div className='container'>
                 <div className='counter__wrapper' >
                    {

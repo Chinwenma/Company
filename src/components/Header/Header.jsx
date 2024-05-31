@@ -34,10 +34,12 @@ const Header = ({ theme, toggleTheme }) => {
     }
   };
 
+
   useEffect(() => {
     window.addEventListener("scroll", headerFunc);
     return () => window.removeEventListener("scroll", headerFunc);
   }, []);
+  
 
   const handleClick = (e) => {
     e.preventDefault();
@@ -57,7 +59,7 @@ const Header = ({ theme, toggleTheme }) => {
       <div className="container">
         <div className="nav__wrapper">
           <div className="logo">
-            <h2>DeTechMatrix</h2>
+            <h2>Matrix</h2>
           </div>
           {/* navigation */}
           <div className="navigation " ref={menuRef}  onClick={toggleMenu}>

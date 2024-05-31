@@ -2,7 +2,7 @@ import React from "react";
 import "../../styles/newsletter.css";
 const Newsletter = () => {
   return (
-    <section className="newsletter" >
+    <section className="newsletter " >
       <div className="container">
         <div className="newsletter__wrapper">
           <div className="newsletter__content">
