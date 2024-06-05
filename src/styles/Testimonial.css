@@ -42,3 +42,17 @@
     font-weight: 500;
 
 }
+@media screen and (max-width:992px) {
+  .slider__content_top{
+    font-size: 1.5rem;
+  }  
+}
+@media screen and (max-width:768px) {
+    .slider__wrapper{
+        width: 90%;
+    }
+    .customer__name{
+        font-size: 1rem;
+    }
+
+}

@@ -69,3 +69,25 @@ font-weight: 500;
 .light-theme .copy__right{
     color: rgb(67, 67, 68);
 }
+
+@media screen and (max-width:768px) {
+    .footer__logo{
+        width: 55%;
+    }
+    .footer__wrapper{
+        flex-wrap:wrap ;
+        column-gap: 1.5rem;
+        row-gap: 1.5rem;
+    }
+   
+    .footer__logo h2{
+        font-size: 1.5rem;
+    }
+}
+@media screen  and (max-width:576px){
+    .footer__quick_links{
+        width: 47%;
+  }
+
+    
+}

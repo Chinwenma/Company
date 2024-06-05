@@ -76,7 +76,7 @@
   color: #000;
 }
 
-/* meia query */
+/* media query */
 @media screen and (max-width: 992px) {
  
   .navigation {
